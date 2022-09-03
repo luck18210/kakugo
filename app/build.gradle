@@ -1,0 +1,86 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
+}
+
+android {
+    buildFeatures {
+        viewBinding true
+        compose true
+    }
+    signingConfigs {
+        debugconfig {
+            keyAlias 'androiddebugkey'
+            storeFile file('/home/luck18210/.android/debug.keystore')
+            keyPassword 'android'
+            storePassword 'android'
+        }
+    }
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "org.kaqui"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 81
+        versionName "1.36.4"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.4.7'
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debugconfig
+        }
+        debug {
+            signingConfig signingConfigs.debugconfig
+        }
+    }
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
+    namespace 'org.kaqui'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.preference:preference-ktx:1.2.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.fragment:fragment-ktx:1.5.7'
+    implementation 'com.google.android.material:material:1.9.0'
+
+    // Compose stuff
+    // Integration with activities
+    implementation 'androidx.activity:activity-compose:1.7.1'
+    // Compose Material Design
+    implementation 'androidx.compose.material:material:1.4.3'
+    // Animations
+    implementation 'androidx.compose.animation:animation:1.4.3'
+    // Tooling support (Previews, etc.)
+    implementation 'androidx.compose.ui:ui-tooling:1.4.3'
+    // Integration with ViewModels
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1'
+
+    implementation "org.jetbrains.anko:anko-sdk27:$anko_version"
+    implementation "org.jetbrains.anko:anko-support-v4:$anko_version"
+    implementation "org.jetbrains.anko:anko-design:$anko_version"
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+}

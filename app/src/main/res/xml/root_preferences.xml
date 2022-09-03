@@ -1,0 +1,75 @@
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/pref_cat_classification">
+        <ListPreference
+            app:defaultValue="jlpt"
+            app:entries="@array/kanji_classification_strings"
+            app:entryValues="@array/kanji_classification_ids"
+            app:key="item_classification"
+            app:summary="%s"
+            app:title="@string/kanji_classification" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_cat_language">
+        <ListPreference
+            app:defaultValue=""
+            app:entries="@array/language_strings"
+            app:entryValues="@array/language_ids"
+            app:key="dictionary_language"
+            app:summary="%s"
+            app:title="@string/dictionary_language" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_cat_appearance">
+
+        <SwitchPreferenceCompat
+            app:key="dark_theme"
+            app:summary="@string/will_update_later"
+            app:title="@string/enable_dark_theme" />
+
+        <SwitchPreferenceCompat
+            app:key="useCustomFont"
+            app:title="@string/use_custom_font" />
+
+        <Preference
+            app:dependency="useCustomFont"
+            app:key="pickCustomFont"
+            app:title="@string/pick_custom_font" />
+
+        <SwitchPreferenceCompat
+            app:key="keep_on"
+            app:summary="@string/keep_screen_on_summary"
+            app:title="@string/keep_screen_on" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_cat_behavior">
+        <SwitchPreference
+            app:key="single_button_mode"
+            app:summaryOff="@string/single_button_off_summary"
+            app:summaryOn="@string/single_button_on_summary"
+            app:title="@string/single_button_mode" />
+
+        <SwitchPreference
+            app:key="hide_answers"
+            app:summaryOff="@string/hide_answers_off_summary"
+            app:summaryOn="@string/hide_answers_on_summary"
+            app:title="@string/hide_answers"
+            app:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_cat_about">
+        <Preference
+            app:key="about"
+            app:title="@string/title_about">
+            <intent
+                android:targetClass="org.kaqui.settings.AboutActivity"
+                android:targetPackage="org.kaqui" />
+        </Preference>
+        <Preference
+            app:key="showChangelog"
+            app:title="@string/changelog" />
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_activity_fragment" type="id" />
+    <item name="main_test_block" type="id" />
+    <item name="history_scroll_view" type="id" />
+    <item name="settings_main_view" type="id" />
+    <item name="select_all" type="id" />
+    <item name="select_none" type="id" />
+    <item name="search" type="id" />
+    <item name="autoselect" type="id" />
+    <item name="load_selection" type="id" />
+    <item name="save_selection" type="id" />
+    <item name="import_selection" type="id" />
+</resources>

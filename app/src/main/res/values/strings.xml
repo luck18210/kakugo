@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name" translatable="false">Kakugo</string>
+    <string name="hiragana" translatable="false"><font size="30">ひらがな</font>\nHIRAGANA</string>
+    <string name="katakana" translatable="false"><font size="30">カタカナ</font>\nKATAKANA</string>
+    <string name="kanji" translatable="false"><font size="30">漢字</font>\nKANJI</string>
+    <string name="word"><font size="30">語彙</font>\nVOCABULARY</string>
+    <string name="stats"><font size="30">進歩</font>\nPROGRESS</string>
+    <string name="settings"><font size="30">設定</font>\nSETTINGS</string>
+    <string name="hiragana_selection">Hiragana selection</string>
+    <string name="katakana_selection">Katakana selection</string>
+    <string name="kanji_selection">Kanji selection</string>
+    <string name="word_selection">Word selection</string>
+    <string name="select_all">Select all</string>
+    <string name="select_none">Select none</string>
+    <string name="autoselect_from_kanji">Automatically select words</string>
+    <string name="import_selection">Import selection</string>
+    <string name="database_error">Database error</string>
+    <string name="custom_test">Custom test</string>
+    <string name="select_test_types">Select the desired types of questions:</string>
+    <string name="select_at_least_one_type">You must select at least one type of question.</string>
+
+    <string name="hiragana_to_romaji">Hiragana to romaji quiz (ひ→hi)</string>
+    <string name="romaji_to_hiragana">Romaji to hiragana (hi→ひ)</string>
+    <string name="hiragana_to_romaji_typing">Hiragana to romaji writing (ひ→hi)</string>
+    <string name="hiragana_drawing">Hiragana drawing</string>
+
+    <string name="katakana_to_romaji">Katakana to romaji (ヒ→hi)</string>
+    <string name="romaji_to_katakana">Romaji to katakana (hi→ヒ)</string>
+    <string name="katakana_to_romaji_typing">Katakana to romaji writing (ヒ→hi)</string>
+    <string name="katakana_drawing">Katakana drawing</string>
+
+    <string name="kanji_to_reading">Kanji to reading (日→ひ)</string>
+    <string name="reading_to_kanji">Reading to kanji (ひ→日)</string>
+    <string name="kanji_to_meaning">Kanji to meaning (日→day)</string>
+    <string name="meaning_to_kanji">Meaning to kanji (day→日)</string>
+    <string name="kanji_composition">Kanji composition (休→亻+木)</string>
+    <string name="kanji_drawing">Kanji drawing</string>
+
+    <string name="word_to_reading">Word to reading (日の出→ひので)</string>
+    <string name="reading_to_word">Reading to word (ひので→日の出)</string>
+    <string name="word_to_meaning">Word to meaning (日の出→sunrise)</string>
+    <string name="meaning_to_word">Meaning to word (sunrise→日の出)</string>
+
+    <string name="hiragana_to_romaji_title">Hiragana to romaji quiz</string>
+    <string name="romaji_to_hiragana_title">Romaji to hiragana</string>
+    <string name="hiragana_to_romaji_typing_title">Hiragana to romaji writing</string>
+    <string name="hiragana_drawing_title">Hiragana drawing</string>
+
+    <string name="katakana_to_romaji_title">Katakana to romaji</string>
+    <string name="romaji_to_katakana_title">Romaji to katakana</string>
+    <string name="katakana_to_romaji_typing_title">Katakana to romaji writing</string>
+    <string name="katakana_drawing_title">Katakana drawing</string>
+
+    <string name="kanji_to_reading_title">Kanji to reading</string>
+    <string name="reading_to_kanji_title">Reading to kanji</string>
+    <string name="kanji_to_meaning_title">Kanji to meaning</string>
+    <string name="meaning_to_kanji_title">Meaning to kanji</string>
+    <string name="kanji_composition_title">Kanji composition</string>
+    <string name="kanji_drawing_title">Kanji drawing</string>
+
+    <string name="word_to_reading_title">Word to reading</string>
+    <string name="reading_to_word_title">Reading to word</string>
+    <string name="word_to_meaning_title">Word to meaning</string>
+    <string name="meaning_to_word_title">Meaning to word</string>
+
+    <string name="sure">Sure</string>
+    <string name="maybe">Maybe</string>
+    <string name="dont_know">Don\'t know</string>
+    <string name="score_string">Session score: %1$d/%2$d</string>
+    <string name="jlpt_search">Search</string>
+    <string name="search_kanji_hint">Search kanji&#8230;</string>
+    <string name="search_word_hint">Search word&#8230;</string>
+    <string name="confirm_test_stop_title">Terminate session</string>
+    <string name="confirm_test_stop_message">Are you sure you want to end this quiz session?</string>
+    <string name="enable_a_few_items">You must enable at least 10 items to start a session</string>
+    <string name="initializing_kanji_db">Initializing database</string>
+    <string name="autoselecting_words">Automatically selecting words from selected kanji</string>
+    <string name="failed_to_init_db">Failed to initialize database: %1$s</string>
+    <string name="debug_info" translatable="false">Days since known: %1$.1f\nLong score: %2$.2f\nLong weight: %3$.2f\nShort score: %4$.2f\nShort weight: %5$.2f\nShort coefficient: %6$.2f\nLong coefficient: %7$.2f\nFinal weight: %8$.2f\nTotal weight: %9$.2f\nMin days since asked: %10$.1f\nNew short score: %11$.2f\nNew long score: %12$.2f</string>
+    <string name="info_button">Show details</string>
+    <string name="next">Next</string>
+    <string name="hint">Hint</string>
+    <string name="save_current_selection">Save current selection</string>
+    <string name="load_selection">Load selection</string>
+    <string name="selection_presentation">%1$s (%2$d items)</string>
+    <string name="delete">Delete</string>
+    <string name="loaded_selection">Loaded selection \"%1$s\"</string>
+    <string name="deleted_selection">Deleted selection \"%1$s\"</string>
+    <string name="saved_selection">Current selection saved as \"%1$s\"</string>
+    <string name="answerDone">Done</string>
+    <string name="enter_name_of_selection">Enter the name of this selection</string>
+    <string name="override_selection_title">Automatically select vocabulary</string>
+    <string name="override_selection_msg">Do you want to select words based on your selected kanji?\nThis will override your current vocabulary selection.</string>
+    <string name="could_not_import_file">Could not import file: %1$s</string>
+    <string name="import_kanji_help">This feature allows importing a kanji selection from a file. The file must contain one kanji per line. The kanji will be added to the current selection.</string>
+    <string name="import_words_help">This feature allows importing a word selection from a file. The file must contain one word per line. The words will be added to the current selection.</string>
+    <string name="additional_kanji">Additional kanji</string>
+    <string name="jlpt_level_n">JLPT level %1$s</string>
+    <string name="rtk_index_range">Indexes %1$s+</string>
+    <string name="rtk6_index_range">Indexes %1$s+</string>
+    <string name="hiragana_title" translatable="false">Hiragana</string>
+    <string name="katakana_title" translatable="false">Katakana</string>
+    <string name="kanji_title" translatable="false">Kanji</string>
+    <string name="word_title">Vocabulary</string>
+
+    <string name="title_activity_main_settings">Settings</string>
+    <string name="pref_cat_appearance">Appearance</string>
+    <string name="pref_cat_behavior">Behavior</string>
+    <string name="pref_cat_language">Language</string>
+    <string name="pref_cat_classification">Classification</string>
+    <string name="pref_cat_about">About</string>
+    <string name="enable_dark_theme">Enable dark theme</string>
+    <string name="will_update_later">Will update when leaving the settings screen</string>
+    <string name="dictionary_language">Dictionary language</string>
+    <string name="lang_system_default">System default</string>
+    <string name="lang_english" translatable="false">English</string>
+    <string name="lang_french" translatable="false">Français</string>
+    <string name="lang_spanish" translatable="false">Español</string>
+    <string name="lang_german" translatable="false">Deutsch</string>
+    <string name="kanji_classification">Kanji classification</string>
+    <string name="kanji_class_jlpt" translatable="false">JLPT</string>
+    <string name="kanji_class_rtk" translatable="false">Remembering The Kanji</string>
+    <string name="kanji_class_rtk6" translatable="false">Remembering The Kanji (6th edition)</string>
+    <string name="use_custom_font">Use a custom font</string>
+    <string name="pick_custom_font">Pick a custom Japanese font</string>
+    <string name="single_button_off_summary">Two buttons \"sure\" and \"maybe\" will appear</string>
+    <string name="single_button_on_summary">Long pressing an answer will validate it as \"maybe\"</string>
+    <string name="single_button_mode">Single button mode</string>
+    <string name="hide_answers_off_summary">Answers will be shown at the same time as the question</string>
+    <string name="hide_answers_on_summary">You will need to click on a button to show answers</string>
+    <string name="hide_answers">Hide answers</string>
+    <string name="show_answers">Show answers</string>
+    <string name="failed_to_load_font">Failed to load custom font: %s</string>
+    <string name="failed_to_load_resource">Failed to load resource: %s</string>
+    <string name="keep_screen_on_summary">Keep screen lit during tests</string>
+    <string name="keep_screen_on">Keep screen on</string>
+
+    <string name="title_about">About Kakugo</string>
+    <string name="about_text"><![CDATA[
+        <p>Kakugo is a Japanese learning app. Version %1$s (%2$d).</p>
+
+        <p>It is open-source and available on <a href="https://github.com/luck18210/kakugo/">github</a> under the GPLv3 license.</p>
+
+        <p>The kanji dictionary is based on <a href="http://www.edrdg.org/kanjidic/kanjidic.html">kanjidic</a>.</p>
+        <p>The kanji German translations come from the <a href="https://www.kanjistudyapp.com/">Kanji Study app</a> from Chase Colburn.</p>
+        <p>The vocabulary dictionary is based on <a href="http://www.edrdg.org/jmdict/j_jmdict.html">JMdict</a>.</p>
+        <p>The kanji similarity data comes from <a href="http://lars.yencken.org/datasets/phd/">a study from Dr. Lars Yencken</a>.</p>
+        <p>The kanji composition and drawing data comes from <a href="https://kanjivg.tagaini.net/">KanjiVG</a>.</p>
+        <p>The JLPT classification data comes from <a href="https://www.tanos.co.uk/jlpt/">Jonathan Waller</a>.</p>
+        <p>The app icon font is <a href="https://www.freejapanesefont.com/nagayama-kai-calligraphy-font-download/">Nagayama Kai<a>.</p>
+        <p>The app title font is <a href="https://www.dafont.com/fonters.font">Fonters<a>.</p>
+
+        <p>Kakugo  Copyright &#169; 2019  Philippe Daouadi</p>
+    ]]></string>
+
+    <string name="title_stats">Progress</string>
+    <string name="stats_no_data">No data available yet. Your progress will appear here after you have taken tests.</string>
+    <string name="stats_items_answered">Questions answered</string>
+    <string name="stats_correct_answers">Correct answers</string>
+    <string name="stats_wrong_answers">Wrong answers</string>
+
+    <string name="changelog">Changelog</string>
+    <string name="changelog_contents"><![CDATA[
+        <h3>What\'s new in 1.36?</h3>
+
+        <br/>- Added German kanji translations from the Kanji Study app (many thanks to Chase Colburn)
+        <br/>- Added German vocabulary translations from JMdict
+        <br/>- Added German app translations from contributor Moritz Bandemer
+        <!-- -->
+        <br/>- Reclassified word list per JLPT level using data from Jonathan Waller
+        <br/>- Words usually written in kana are now written in kana
+        <br/>- Word reading tests don\'t include words written in kana anymore
+        <br/>- Added import words from file feature
+    ]]></string>
+</resources>
